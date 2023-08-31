@@ -23,6 +23,14 @@ export const Searchbar = styled.input
     background-repeat: no-repeat;
     background-position: 10px center;
     font-weight: 500;
+
+    @media (min-width: 1024px) {
+        font-size: 18px;
+        width: 50%;
+        height: 45px;
+        background-size: 2.5%;
+        padding-left: 40px;
+    }
 `
 
 export const Body = styled.div
@@ -42,6 +50,12 @@ export const Alert = styled.div
     flex-direction: row;
     text-align: left;
     font-weight: 400;
+
+    @media (min-width: 1024px) {
+        font-size: 18px;
+        width: 44%;
+        padding-right: 0px;
+    }
 `
 
 export const AlertIcon = styled.div
@@ -59,6 +73,10 @@ export const Profile = styled.div
     font-size: 18px;
     margin: 30px 0;
     font-weight: 600;
+
+    @media (min-width: 1024px) {
+        font-size: 22px;
+    }
 `
 
 export const UserIcon = styled.div
@@ -72,6 +90,11 @@ export const UserIcon = styled.div
     justify-content: center;
     align-items: center;
     margin-right: 15px;
+
+    @media (min-width: 1024px) {
+        width: 100px;
+        height: 100px;
+    }
 `
 
 export const UserInfo = styled.div
@@ -87,6 +110,10 @@ export const UserRanking = styled.div
     color: #D3D3D3;
     font-size: 12px;
     font-weight: 400;
+
+    @media (min-width: 1024px) {
+        font-size: 16px;
+    }
 `
 
 export const UserLocation = styled.p
@@ -95,6 +122,10 @@ export const UserLocation = styled.p
     font-size: 12px;
     line-height: 0;
     font-weight: 400;
+
+    @media (min-width: 1024px) {
+        font-size: 18px;
+    }
 `
 
 export const HorizontalRuler = styled.hr
@@ -131,14 +162,9 @@ export const MoreContent = styled.div
     color: #424F4D;
     text-align: left;
     font-size: 18px;
-    margin: 40px 0;
+    margin-top: 20px;
     font-weight: 600;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-`
-
-export const CarouselCard = styled.div
-`
-    
 `

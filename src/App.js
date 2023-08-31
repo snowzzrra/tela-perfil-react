@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import {Alert, AlertIcon, Body, Header, Searchbar, Profile, UserIcon, UserInfo, UserRanking, UserLocation, HorizontalRuler, StarIcon, BlueText, ArrowIcon, MoreContent} from './styles';
+import Cards from './Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTriangleExclamation, faUser } from '@fortawesome/free-solid-svg-icons'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -51,13 +51,29 @@ function App() {
           </BlueText>
           
         </MoreContent>
-        <Swiper 
-            spaceBetween={50}
-            slidesPerView={1.75}
+        <div>
+          <Swiper
+            breakpoints={{
+              320: {
+                spaceBetween: 25,
+                slidesPerView: 1.75,
+              },
+              1024: {
+                spaceBetween: 5,
+                slidesPerView: 1.9,
+              },
+            }}
           >
-            <SwiperSlide><img src='https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4'></img></SwiperSlide>
-            <SwiperSlide><img src='https://s5.static.brasilescola.uol.com.br/be/2023/01/diversas-frutas-em-fundo-branco.jpg'></img></SwiperSlide>
+            <SwiperSlide><Cards src="https://spdm.org.br/wp-content/uploads/2016/05/k2_items_src_a994012531a064cee191b71c491599f4.jpg" 
+            title="Parceiros" description="Diabetes: alimentos para evitar." bgColor="#d48a04"/></SwiperSlide>
+
+            <SwiperSlide><Cards src="https://www.santos.sp.gov.br/static/files_www/styles/newspagemodal/public/field/image/pexels-rfstudio-3825529.jpg" 
+            title="Capacitações" description="Como ministrar doses" bgColor="#3b2d72"/></SwiperSlide>
+
+            <SwiperSlide><Cards src="https://cdn.palmbeachillustrated.com/wp-content/uploads/sites/78/2023/03/Dr.-Jean-Monice-caring-for-a-pediatric-patient-in-Palm-Beach-County.-Photo-by-CBS12-News-photographer-Jackson-Morris-1024x768.jpg" 
+            title="Capacitações" description="Cuidado infantil básico ao avançado." bgColor="#3b2d72"/></SwiperSlide>
           </Swiper>
+        </div>
       </Body>
     </div>
   );

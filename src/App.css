@@ -37,8 +37,15 @@
   }
 }
 
-img{
-  width: 200px;
-  height: 150px;
-  filter: drop-shadow(0px -75px 5px #000);
+@media screen and (min-width: 1024px) {
+  .swiper-container {
+    width: 1024px;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    width: 320px;
+  }
+}
+
