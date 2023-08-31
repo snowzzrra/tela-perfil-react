@@ -1,3 +1,5 @@
+# ESSE PROJETO FOI FEITO PARA MOBILE! PRIORIZE ABRI-LO NO CELULAR OU USAR O MODO DE DESIGN RESPONSIVO DO SEU NAVEGADOR.
+
 # Projeto foi feito com Create React App
 
 Esse projeto usou o [Create React App](https://github.com/facebook/create-react-app).
