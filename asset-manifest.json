@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tela-perfil-react/static/css/main.0482b20e.css",
+    "main.js": "/tela-perfil-react/static/js/main.a435465c.js",
+    "static/js/787.0dd6e2ac.chunk.js": "/tela-perfil-react/static/js/787.0dd6e2ac.chunk.js",
+    "index.html": "/tela-perfil-react/index.html",
+    "main.0482b20e.css.map": "/tela-perfil-react/static/css/main.0482b20e.css.map",
+    "main.a435465c.js.map": "/tela-perfil-react/static/js/main.a435465c.js.map",
+    "787.0dd6e2ac.chunk.js.map": "/tela-perfil-react/static/js/787.0dd6e2ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0482b20e.css",
+    "static/js/main.a435465c.js"
+  ]
+}
