@@ -2,6 +2,7 @@
 
 Esse projeto usou o [Create React App](https://github.com/facebook/create-react-app).
 
+
 ## Scripts
 
 Script para inicialização (após baixar o projeto):
